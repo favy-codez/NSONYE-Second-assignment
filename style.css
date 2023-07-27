@@ -249,7 +249,11 @@ ul li:hover{
     .hero-section-smaller h1{
         font-size: 1.3rem;
     }
+    .hero-section-smaller{
+        margin: 20px 1rem;
+    }
     #hero-img-smaller{
-        width: 270px;
+        width: 250px;
+        margin: 10px auto;
     }
 }
