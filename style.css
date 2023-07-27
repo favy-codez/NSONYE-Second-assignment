@@ -101,6 +101,22 @@ ul li:hover{
 }
 
 /* MEDIA QUERY */
+@media screen and (max-width: 1280px) {
+    #hero-img{
+        width: 350px;
+    }
+    .hero-text-sec p{
+        width: 650px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #hero-img{
+        width: 350px;
+    }
+    .hero-text-sec p{
+        width: 550px;
+    }
+}
 @media screen and (max-width: 912px) {
     .nav{
         width: 70%;
@@ -159,14 +175,14 @@ ul li:hover{
     }
     .ri-menu-line{
         display: block;
+        width: 30px;
     }
     .nav{
         display: none;
         font-size: 5rem;
     }
     header{
-        width: 60%;
-        margin: 20px 1rem;
+        margin: 20px 2rem;
     }
     .hero-section{
         display: none;
@@ -176,15 +192,15 @@ ul li:hover{
         display: flex;
         flex-direction:column ;
         justify-content: space-between;
+        margin: 20px 2rem;
     }
     #hero-img-smaller{
         width: 600px;
-        margin: 9px 12px 9px 28px;
+        margin: 15px auto ;
     }
     .hero-section-smaller h1{
         font-size: 1.6rem;
-        margin: 0 12px 0 28px;
-        width: 300px;
+        margin: 15px auto ;
         text-align: center;
         color: #333;
     }
@@ -194,8 +210,7 @@ ul li:hover{
     .hero-text-sec-smaller p{
         font-size: 18px;
         color: #333;
-        margin: 0 0px 0 52px;
-        width: 250px;
+        margin: 15px 0 ;
         text-align: center;
         font-weight: 600;
     }
@@ -208,7 +223,7 @@ ul li:hover{
         font-size: 13px;
         font-weight: 400;
         display: block;
-        margin: 15px 0px 0 7.2rem;
+        margin: 1.5rem auto ;
     }
     
     .hero-btn-smaller:hover{
@@ -216,19 +231,25 @@ ul li:hover{
         color: #fff;
     }
     .hero-section-smaller h2{
-        margin: 2rem 0px 0 3.5rem;
+        text-align: center;
         color: #333;
+        margin: 15px  0 0 0;
     }
 }
 
-
-
-
-
-
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 414px) {
+    .hero-text-sec-smaller p{
+        font-size: 16px;
+    }
 }
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 280px) {
+    header{
+        margin: 20px 1rem;
+    }
+    .hero-section-smaller h1{
+        font-size: 1.3rem;
+    }
+    #hero-img-smaller{
+        width: 270px;
+    }
 }
